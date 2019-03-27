@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/qq"
+            android:id="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="75dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="404dp"/>
+    <TextView
+            android:text="Selamat Datang"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_marginStart="40dp"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="52dp"
+            app:layout_constraintHorizontal_bias="0.51"
+            android:layout_marginTop="100dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginBottom="234dp"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+    <TextView
+            android:text="Dnk adalah salah satu Brand local Indonesia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:id="@+id/textView5"
+            android:layout_marginTop="19dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            android:layout_marginStart="40dp"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="29dp"
+            android:layout_marginBottom="167dp"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+    <TextView
+            android:text="di bidang Fashion"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:layout_marginStart="113dp"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            android:layout_marginTop="21dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"/>
+</android.support.constraint.ConstraintLayout>
